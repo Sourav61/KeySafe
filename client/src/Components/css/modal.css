@@ -1,0 +1,36 @@
+.popUp {
+    position: absolute;
+    margin: auto;
+    height: 10em;
+    width: 30em;
+    border: 2px solid #f0342b;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+}
+
+.popUp h3 {
+    color: black;
+    text-align: center;
+}
+
+.QuesImgContainer {
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuesImg {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+}

@@ -1,0 +1,89 @@
+#root {
+  flex: 1;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addPassword {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  width: 40%;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.addPassword button,
+input {
+  width: 55%;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  margin: 10px;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.error {
+  position: relative;
+  animation: shake .1s linear;
+  animation-iteration-count: 3;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    margin-left: 0rem;
+  }
+
+  25% {
+    margin-left: 0.5rem;
+  }
+
+  75% {
+    margin-left: -0.5rem;
+  }
+
+  100% {
+    margin-left: 0rem;
+  }
+}
+
+.Passwords {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password {
+  width: 400px;
+  height: 70px;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .addPassword {
+    width: 80%;
+  }
+}
